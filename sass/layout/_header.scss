@@ -1,13 +1,14 @@
 .header {
   border-bottom: 1px solid #ececec;
+  & .container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
   /* width: 1600px; */
 }
-.header .container {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
+
 .navigation {
   display: flex;
   align-items: center;

@@ -408,16 +408,16 @@ img {
   border-radius: 4px;
 }
 
-.dark > .container {
-  display: flex;
-  align-items: baseline;
-}
-
 .dark {
   background-color: var(--secondary-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
   display: block;
+  align-items: baseline;
+}
+
+.dark > .container {
+  display: flex;
   align-items: baseline;
 }
 

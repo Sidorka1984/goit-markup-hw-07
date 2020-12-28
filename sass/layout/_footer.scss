@@ -50,38 +50,24 @@
 .footer-mail-tel:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-.dark-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
+.dark .social-list-link {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: #ffffff;
+  }
 }
+
 .dark .social-list-icon {
   fill: var(--accent-icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.dark-list-link:hover,
-.dark-list-link:focus {
-  background-color: var(--accent-color);
-  fill: #ffffff;
-}
 .footer-social-link {
   margin-right: 93px;
 }
-// .social-list-icon {
-//   width: 20px;
-//   height: 20px;
-//   fill: var(--icon-color);
-//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
+
 .footer-form-title {
   display: inline-flex;
   margin-bottom: 20px;
